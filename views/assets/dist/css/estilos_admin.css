@@ -1,0 +1,115 @@
+.main-sidebar {
+    background-image: url(../img/menu.png) !important;
+    background-position: 100% 100%;
+    background-size: cover !important;
+}
+
+[class*=sidebar-light] .brand-link,
+[class*=sidebar-light] .brand-link .pushmenu {
+    color: #755237 !important;
+}
+
+.font-weight-light {
+    font-weight: bold !important;
+    font-size: 18px !important;
+}
+
+[class*=sidebar-light-] .nav-treeview>.nav-item>.nav-link {
+    color: #755237;
+    font-size: 15px;
+}
+
+[class*=sidebar-light-] .sidebar a {
+    color: #755237;
+    font-size: 15px;
+}
+
+.content-wrapper .content-header h1 {
+    font-size: 20px;
+    letter-spacing: 1px;
+    color: #d4ac4c;
+    font-weight: bold;
+}
+
+.content-wrapper .content-header p {
+    margin-top: 5px;
+    font-size: 16px;
+    letter-spacing: 1px;
+    margin-bottom: 0;
+}
+
+.content-wrapper .content-header strong {
+    color: #755237;
+}
+
+.main-footer strong {
+    font-size: 14px;
+    letter-spacing: 1px;
+}
+
+.main-footer strong a {
+    color: #d4ac4c;
+}
+
+.main-footer .float-right {
+    font-size: 14px;
+    letter-spacing: 1px;
+}
+
+.swal2-confirm {
+    background-color: #d4ac4c !important;
+    color: white !important;
+}
+
+.swal2-cancel {
+    background-color: #d33 !important;
+    color: white !important;
+}
+
+.btn-warning {
+    background-color: #d4ac4c !important;
+    color: white !important;
+    border: 2px solid #d4ac4c !important;
+    font-size: 14px;
+    letter-spacing: 1px;
+}
+
+.btn-warning:hover {
+    background-color: white !important;
+    border: 2px solid #d4ac4c !important;
+    color: #d4ac4c !important;
+    font-weight: bold !important;
+}
+
+.add-header {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-bottom: 10px;
+}
+
+.text-warning {
+    color: #d4ac4c !important;
+}
+
+.modal_usuario_add .modal-header h5 {
+    font-size: 15px;
+    letter-spacing: 1px;
+}
+
+.modal_usuario_add .modal-body form label, .modal_usuario_add .modal-body form input, .modal_usuario_add .modal-body form select {
+    font-size: 14px;
+    font-weight: normal;
+    letter-spacing: 1px;
+}
+
+.modal_usuario_update .modal-header h5 {
+    font-size: 15px;
+    letter-spacing: 1px;
+}
+
+.modal_usuario_update .modal-body form label, .modal_usuario_update .modal-body form input, .modal_usuario_update .modal-body form select {
+    font-size: 14px;
+    font-weight: normal;
+    letter-spacing: 1px;
+}

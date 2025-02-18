@@ -1,0 +1,73 @@
+.card-warning {
+    border-top: 3px solid #d4ac4c !important;
+}
+
+.btn-warning {
+    background-color: #d4ac4c !important;
+    color: white !important;
+    border: 2px solid #d4ac4c !important;
+}
+
+.text-warning {
+    color: #d4ac4c !important;
+}
+
+.btn-warning:hover {
+    background-color: white !important;
+    border: 2px solid #d4ac4c !important;
+    color: #d4ac4c !important;
+    font-weight: bold !important;
+}
+
+a {
+    color: #d4ac4c !important;
+    text-decoration: none !important;
+    background-color: transparent !important;
+}
+
+.alert-danger {
+    color: #d32535;
+    background-color: #fbd4dc;
+    border-color: #fbd4dc;
+}
+
+.alert-success {
+    color: #205942;
+    background-color: #d4edda;
+    border-color: #d4edda;
+}
+
+#btn_regresar_login {
+    display: flex;
+    border-radius: 5px;
+    position: absolute;
+    top: 1%;
+    left: 1%;
+}
+
+.login-page, .register-page {
+    background-image: url('../img/mapa_fondo.png'); /* Cambia la ruta a tu imagen */
+    background-size: cover; /* Ajusta la imagen para que cubra todo el contenedor */
+    background-position: center; /* Centra la imagen */
+    height: 100vh; /* Ocupa el 100% de la altura de la ventana */
+    display: flex; /* Para centrar el contenido */
+    flex-direction: column; /* Coloca los elementos en columna */
+    justify-content: center; /* Centra verticalmente */
+    align-items: center; /* Centra horizontalmente */
+}
+
+/*ESTILOS PARA MOVILES*/
+@media only screen and (min-width: 320px) and (max-width: 850px) {
+    .login-box,
+    .register-box {
+        width: 300px !important;
+    }
+}
+
+/*ESTILOS PARA PANTALLAS GRANDES*/
+@media only screen and (min-width: 1440px) {
+    .login-box,
+    .register-box {
+        width: 450px !important;
+    }
+}
